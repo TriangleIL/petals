@@ -1,0 +1,35 @@
+{
+  "name": "gilded.rose.petals.io",
+  "version": "1.2.3",
+  "description": "Gilded Rose Petals Inventory API",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive --exit"
+  },
+  "author": "Jason Symons",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "database": "file:database",
+    "express": "^4.16.4",
+    "express-bearer-token": "^2.2.0",
+    "middleware": "file:middleware",
+    "utils": "file:utils",
+    "v1": "file:v1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1",
+    "sinon-chai": "^3.2.0",
+    "sinon-express-mock": "^2.1.0",
+    "supertest": "^3.3.0"
+  }
+}
